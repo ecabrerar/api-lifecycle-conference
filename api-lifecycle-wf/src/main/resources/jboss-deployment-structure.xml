@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+    <deployment>
+     <dependencies>
+          <module name="org.wildfly.extension.microprofile.fault-tolerance-smallrye" meta-inf="export" />
+          <module name="org.wildfly.extension.microprofile.health-smallrye" meta-inf="export" />
+          <module name="org.wildfly.extension.microprofile.openapi-smallrye" meta-inf="export" />
+          <module name="org.wildfly.extension.microprofile.metrics-smallrye" meta-inf="export" />
+      </dependencies>
+    </deployment>
+</jboss-deployment-structure>
