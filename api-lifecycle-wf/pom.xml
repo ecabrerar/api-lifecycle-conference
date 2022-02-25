@@ -22,7 +22,8 @@
 			<version>8.0.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		
+		<!--<dependency>
 			<groupId>org.eclipse.microprofile</groupId>
 			<artifactId>microprofile</artifactId>
 			<version>4.0.1</version>
@@ -34,6 +35,26 @@
 			<groupId>org.microprofile-ext.openapi-ext</groupId>
 			<artifactId>openapi-ui</artifactId>
 			<version>1.1.5</version>
+		</dependency>
+		-->
+		
+		<dependency>
+			<groupId>org.eclipse.microprofile.config</groupId>
+			<artifactId>microprofile-config-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.microprofile.openapi</groupId>
+			<artifactId>microprofile-openapi-api</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.microprofile-ext.openapi-ext</groupId>
+			<artifactId>openapi-ui</artifactId>
+			<version>1.1.4</version>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
